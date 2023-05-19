@@ -69,7 +69,7 @@ def summation(n, term):
         total, k = total + term(k), k + 1
     return total
 
-from operator import mul
+f rom operator import mul
 
 def pi_term(k):
     return 8 / mul(k * 4 - 3, k * 4 - 1)
